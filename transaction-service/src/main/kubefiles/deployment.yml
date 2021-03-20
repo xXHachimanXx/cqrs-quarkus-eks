@@ -20,7 +20,7 @@ metadata:
   name: transaction-app
   namespace: quarkus-cqrs-demo
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: transaction-app
